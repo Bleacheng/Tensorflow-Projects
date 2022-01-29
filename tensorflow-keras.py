@@ -31,6 +31,8 @@ import numpy as np
 
 print(np.argmax(predictions[0])) # Prints the prediction for the first sample
 
+import matplotlib.pyplot as plt
+
 plt.imshow(x_test[0])
 plt.show()
 
